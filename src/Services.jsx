@@ -15,8 +15,8 @@ const Services = () =>  {
     <div className="container-fluid mb-5">
             <div className="row">
                 <div className="col-10 mx-auto">
-                  <div className="row gy4">
-                    <div className="col-md-4 col-10 mx-auto">
+                  <div className="row ">
+                      
                       {
 
                        Sdata.map((val, index) => {
@@ -28,7 +28,6 @@ const Services = () =>  {
                        })
                       }
                      
-                    </div>
                     </div>
                     </div>
                     </div>
